@@ -1,103 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title> Oficina do Osvaldo </title>
-
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pessoas</title>
 </head>
 <body>
     <header>
-        <section>
-        </header>
-              <img src="assets/img/logo.png" alt="Imagem da logo da oficina">
-               <h1>Osvaldo motors</h1>
-                <p>Bem-vindo à nossa oficina!</p>
+        <section id="titulo_header">
+            <p><strong>OS</strong></p>
+            <h1>Osvaldo Motors</h1>
         </section>
+        <section id="opcoes_header">
+            <a href="" class="botao_verde">Início</a>
+            <a href="" class="botao_claro">Catálogo</a>
+            <a href="" class="botao_claro">Pesquisar 🔍</a>
         </section>
-               <section id="menu">
-                <p>Início</p>
-                <p>serviços</p>
-                <p>Contato</p>
-              </section>
     </header>
     <main>
-        <section id="introdução">
-            <article>
-
-                <h2>Sobre Nós</h2>
-                <p>Somos uma oficina especializada em manutenção e reparo de veículos. Nossa equipe é composta por profissionais experientes e dedicados a oferecer o melhor serviço para nossos clientes.</p>
-                <h2> E essa é uma foto da nossa oficina</h2>
-
-            </article>
-              <img src="assets/img/imagem-oficina.png" alt="Imagem da oficina">   
+        <section id="descricao_personagens">
+                    <article>
+                        <p><strong><span class="verde">Osvaldo Motors</span></strong></p>
+                        <h2><strong>Barulhos estranhos no <span class="verde">carro</span>, venha na nossa oficina</strong></h2>
+                        <p>A oficina que vai arrumar todos os seus problemas</p>
+                    </article>
+                </section>
+        <section id="galeria">
+            <section id="titulo_galeria">
+                <p><strong><span class="destaque">Histórico</span></strong></p>
+                <h2>Últimos serviços</h2>
+            </section>
+            <section id="img-galeria">
+                <article id="card">
+                    <h3>Marcos</h3>
+                    <p>Probelma no escapamento</p>
+                </article>
+                <article id="card">
+                    <h3>Roberto</h3>
+                    <p>Volante travado</p>
+                </article>
+                <article id="card">
+                    <h3>Matheus</h3>
+                    <p>Motor fundiu</p>
+                </article>
+                <article id="card">
+                    <h3>Cleber</h3>
+                    <p>Carro amassado</p>
+                </article>
+                <article id="card">
+                    <h3>Marcos</h3>
+                    <p>Balanceamento de suspensão</p>
+                </article>
+                <article id="card">
+                    <h3>Gustavo</h3>
+                    <p>Troca de óleo</p>
+                </article>
+                <article id="card">
+                    <h3>Dom Pedro</h3>
+                    <p>Inteligente e estrategista</p>
+                </article>
+                <article id="card">
+                    <h3>João</h3>
+                    <p>Mal e gordo</p>
+                </article>
+                
+            </section>
         </section>
-
-        <section id="sobre-sistema">
-
-                 <h2>Sobre o sistema</h2>
-                 <p>Sistema web de gestão de serviços automotivos desenvolvido para modernizar o atendimento da Oficina do Osvaldo, permitindo o agendamento online de revisões, acompanhamento do status do conserto pelo cliente e controle de orçamento.</p></p>
-
+    </main>
+    <footer>
+        <section>
+            <p>Mini site desenvolvido para a oficina do Osvaldo</p>
         </section>
-         <section id="requisitos"></section>
-
-                <h2>Principais funcionalidas</h2>
-            <ul>
-              <p>Agendamento online de revisões e orçamentos</p>
-              <p>Painel de acompanhamento do status do veículo em tempo real</p>
-              <p>Cadastro e histórico de manutenções por placa do veículo</p>
-              <p>Emissão e envio automático de orçamentos via WhatsApp</p>
-          </ul>
+        <section>
+            <a href="" target="_blank" class="botao_verde">Site oficial da Osvaldo Motors</a>
+            <a href="" download class="botao_verde">Baixar guia da equipe</a>
         </section>
-         <section id="precos">
-                <h2>Tabela de Serviços e Preços</h2>
-         <table>
-         <thead>
-          <tr>
-              <th>Serviço</th>
-              <th>Descrição</th>
-              <th>Preço Estimado</th>
-          </tr>
-         </thead>
-         <tbody>
-          <tr>
-            <td>Troca de Óleo + Filtro</td>
-            <td>Substituição de óleo lubrificante e filtro de óleo original</td>
-            <td>R$ 220,00</td>
-          </tr>
-          <tr>
-            <td>Alinhamento e Balanceamento</td>
-            <td>Serviço completo de geometria para as 4 rodas</td>
-            <td>R$ 120,00</td>
-          </tr>
-          <tr>
-            <td>Revisão de Freios</td>
-            <td>Inspeção de pastilhas, discos e troca do fluido de freio</td>
-            <td>R$ 280,00</td>
-          </tr>
-          <tr>
-            <td>Diagnóstico Eletrônico</td>
-            <td>Passagem de scanner automotivo e leitura de erros</td>
-            <td>R$ 150,00</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section id="galeria">
-      <h2>Nossa Estrutura</h2>
-      <div class="flex-gallery">
-            <img src="assets/img/equipamento-diagnostico.png" alt="Equipamentos de Diagnóstico">
-            <h3>Equipamentos de Diagnóstico</h3>
-            <img src="assets/img/elevador-automotivo.png" alt="Elevador Automotivo">
-            <h3>Elevador Automotivo</h3>
-      </div>
-    </section>
-
-  </main>
-
+    </footer>
 </body>
 </html>
-          
-    </main>
-</body>
